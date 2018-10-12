@@ -1,2 +1,5 @@
 exports.port = 1337;
-exports.host = '192.168.2.100';
+//exports.host = '*.*.*.*';
+exports.host = '*.*.*.*';
+exports.db = 'nodedb';
+exports.dbPath = 'mongodb://*.*.*.*:*';
